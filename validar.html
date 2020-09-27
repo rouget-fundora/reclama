@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Documento sin t&iacute;tulo</title>
+
+<script type="text/javascript">
+function validarEmail(valor) {
+  if (/(\w+)(\.?)(\w*)(\@{1})(\w+)(\.?)(\w*)(\.{1})(\w{2,3})/.test(valor)){
+    return true;
+  } else {
+    return false;
+  }
+}
+
+    function validarregistro(){
+        if(document.getElementById("nombre").value=="")
+            alert("Ingrese Nombre");
+        else if(document.getElementById("apellido").value=="")
+            alert("Ingrese Apellido");
+        else if(!validarEmail(document.getElementById("correo").value)) // validamos el correo valido
+            alert("Ingrese un correo valido");
+		else if(document.getElementById("tel").value<"9") // validamos el tel valido
+            alert("Ingrese un telemovel valido");
+        else
+            document.frmregistro.submit(); // enviamos el formulario
+    }
+</script>
+
+</head>
+
+<body>
+
+<form name="frmregistro" id="frmregistro" method="post">
+
+    <label>Nombre:</label> <input type="text" name="nombre" id="nombre" />
+
+    <label>Apellido:</label> <input type="text" name="apellido" id="apellido" />
+
+    <label>Correo:</label> <input type="text" name="correo" id="correo" />
+	
+	<label>Telemovel:</label> <input type="text" name="tel" id="tel" />
+
+    <input type="button" value="Registrar" onclick="validarregistro()" />
+
+</form>
+</body>
+</html>

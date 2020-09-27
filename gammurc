@@ -1,0 +1,13 @@
+
+[gammu]
+
+device = COM5:
+
+connection = at
+
+gammucoding = utf8
+
+[smsd]
+OutboxFormat = unicode
+TransmitFormat = unicode
+

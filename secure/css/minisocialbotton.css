@@ -1,0 +1,45 @@
+
+.icon-circle  i:before{
+    margin-left         : 10px;
+    font-size           : 16px;
+}   
+}
+
+.ifacebook .fa{
+    color               :#3b5998;
+}
+
+.ifacebook .fa:hover{
+      
+    color                   : #fff;
+
+}
+
+.itwittter .fa{
+    color               : #33ccff;
+}
+
+.itwittter .fa:hover{
+      
+    color                   : #fff;
+
+}
+
+.igoogle .fa{
+    color               : #BD3518;
+}
+
+.igoogle .fa:hover{  
+    color                   : #fff;
+
+}
+
+.iLinkedin .fa{
+    color               : #007bb7;
+}
+
+.iinstragram .fa:hover{
+       
+    color                   : #fff;
+
+}

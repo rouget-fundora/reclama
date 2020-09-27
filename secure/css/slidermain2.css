@@ -1,0 +1,79 @@
+.imgem {
+ 
+    width: 100%;
+    height: 100%;
+        object-fit: cover;
+    object-position: center;
+}
+
+.rslides {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+}
+
+.rslides_container {
+height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+.caption2 {
+    font-family: 'Ubuntu', serif;
+    position: absolute;
+    display: block;
+    bottom: 40px;
+    left: 15px;
+    color: rgba(255, 255, 255, 0.81);
+    height: 40px;
+    font-size: 20px;
+      /*text-shadow:  -1px -1px 10px rgba(0,0,0,.5) ; */   
+}
+
+.caption1 {
+    font-family: 'Ubuntu', serif;
+    position: absolute;
+    display: block;
+    bottom: 100px;
+    left: 15px;
+    color: #fff;
+    height: 33px;
+    font-size: 55px;
+    font-weight: bolder;
+}
+/*
+.caption3 {
+    font-family: 'Ubuntu', serif;
+    position: absolute;
+    display: block;
+    bottom: 50px;
+    background: rgba(0, 0, 0, 0.15);
+    right: 25px;
+    color: #fff;
+   text-decoration: none;
+    text-align: center;
+    padding: 15px 20px 15px 20px;
+    font-size: 20px;
+      text-shadow:  -1px -1px 10px rgba(0,0,0,.5) ;
+}
+
+.caption3:hover {
+   background: rgba(0, 0, 0, .4); 
+    opacity: .8
+}
+
+.caption0 {
+
+    position: absolute;
+    display: block;
+    bottom: 4.5px;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.12);
+    color: #fff;
+
+}
+*/

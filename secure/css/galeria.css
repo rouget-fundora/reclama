@@ -1,0 +1,54 @@
+
+/* line 16, ../sass/demo.scss */
+.clear {
+  clear: both;
+  float: none;
+  width: 100%;
+}
+
+
+.container .gallery a{
+	width:100%;
+	padding:0;
+}
+
+.container .gallery a img {
+  float: left;
+  width: 25%;
+  height: 100px;
+  -webkit-transition: -webkit-transform .15s ease;
+  -moz-transition: -moz-transform .15s ease;
+  -o-transition: -o-transform .15s ease;
+  -ms-transition: -ms-transform .15s ease;
+  transition: transform .15s ease;
+  position: relative;
+  margin:0;
+  padding:0;
+  object-fit: cover;
+  object-position: center;
+}
+/* line 46, ../sass/demo.scss */
+.container .gallery a:hover img {
+opacity:0.7
+}
+
+
+/* line 22, ../sass/demo.scss */
+
+/* line 32, ../sass/demo.scss */
+.container.other .gallery a img {
+  float: left;
+  width: 33.3333333333%;
+  height: 100px;
+  -webkit-transition: -webkit-transform .15s ease;
+  -moz-transition: -moz-transform .15s ease;
+  -o-transition: -o-transform .15s ease;
+  -ms-transition: -ms-transform .15s ease;
+  transition: transform .15s ease;
+  position: relative;
+  margin:0;
+  padding:0;
+  object-fit: cover;
+  object-position: center;
+}
+

@@ -1,0 +1,229 @@
+.carousel-control.left,
+.carousel-control.right {
+    background-image: none !important;
+    background: rgba(0, 0, 0, 0);
+}
+
+.carousel-control.right {
+    right: 10px;
+}
+
+.carousel-control.left {
+    right: 40px;
+}
+
+.carousel-control {
+    position: absolute;
+    top: auto;
+    bottom: 8px;
+    left: auto;
+    width: 26px;
+    font-size: auto;
+    color: black;
+    text-align: center;
+    opacity: 1;
+    text-shadow: none;
+    padding: 4px 0;
+    background: black;
+}
+
+.carousel-control .fa {
+    color: white;
+}
+
+.carousel-control:hover {
+    color: #000;
+}
+
+.carousel-indicators {
+    bottom: -50px;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000\9;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #16a085;
+    border-radius: 50%;
+}
+
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: #16a085;
+}
+
+
+
+.carousel-inner .item img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.item .thumbnail {
+    margin-bottom: 0;
+}
+
+body {
+    background: rgba(0, 0, 0, 0.02);
+}
+
+.imgem {
+
+    height: 350px;
+object-fit: none;
+	object-position: 50% 50%; /* default value: image is centered*/
+	object-position: center;
+width: 100%;
+
+}
+
+.rslides {
+margin: auto;
+    height: 350px;
+    list-style: none;
+    overflow: hidden;
+
+padding: 0;
+}
+
+.caption2 {
+    font-family: 'Ubuntu', serif;
+    position: absolute;
+    display: block;
+    bottom: 30px;
+    left: 15px;
+    color: rgba(255, 255, 255, 0.81);
+    height: 40px;
+    font-size: 22px;
+	text-decoration: none;
+      /*text-shadow:  -1px -1px 10px rgba(0,0,0,.5) ; */   
+}
+
+.caption1 {
+    font-family: 'Ubuntu', serif;
+    position: absolute;
+    display: block;
+    bottom: 95px;
+    left: 15px;
+    color: #fff;
+    height: 33px;
+    font-size: 65px;
+    font-weight: bolder;
+	text-decoration: none;
+}
+/*
+.caption3 {
+    font-family: 'Ubuntu', serif;
+    position: relative;
+    display: block;
+    bottom: -150px;
+    background: rgba(0, 0, 0, 0.3);
+	width:150px;
+    color: #fff;
+	text-decoration: none;
+    text-align: center;
+    padding: 15px 20px 15px 20px;
+    font-size: 22px;
+	text-shadow:  -1px -1px 10px rgba(0,0,0,.5) ;
+}
+.caption3:hover {
+   background: rgba(0, 0, 0, .4); 
+    opacity: .8;
+		color: white;
+	text-decoration: none;
+	 cursor: pointer; 
+}
+*/
+.logotipo {
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: -90px;
+    width: 970px;
+    color: grey;
+    font-family: 'Scope One', serif;
+}
+
+.redesocial {
+    float: right;
+    margin: 56px -120px 0px 0px;
+}
+
+.redesocialicone img {
+    margin: 0 5px 0 0
+}
+
+.redesocialicone img:hover {
+    opacity: 0.6
+}
+
+#custom-search-input {
+    z-index: 1000000000;
+    padding: 0px;
+    border: solid 1px #cccccc;
+    background-color: #fff;
+    margin-top: 55px;
+    margin-right: -380px;
+    width: 250px;
+    height: 32px;
+    float: right;
+}
+
+#custom-search-input input {
+    border: 0;
+    box-shadow: none;
+
+    padding: 7px 0px 7px 10px;
+    width: 200px;
+    font-size: 15px;
+    margin-top: 1px;
+}
+
+#custom-search-input button {
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    border-left: solid 1px #ccc;
+    width: 41px;
+    height: 33px;
+    margin: -32px 10px 10px 210px;
+}
+
+#custom-search-input button img {
+    width: 20px;
+    height: 20px;
+    opacity: 0.5;
+}
+
+#custom-search-input button:hover {
+    border: 0;
+    box-shadow: none;
+    border-left: solid 1px #ccc;
+}
+
+.logotxt3 {
+    float: right;
+    margin-right: 3px;
+    color: black;
+    font-size: 12px;
+
+}
+
+.logotxt3 a {
+    color: black;
+    text-decoration: none;
+
+}
+
+.logotxt3 a:hover {
+    opacity: 0.6
+}
